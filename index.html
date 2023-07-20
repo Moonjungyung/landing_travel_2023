@@ -28,7 +28,7 @@
         <!-- 1. title -->
         <section class="title_bg">
             <div class="title">
-                <p><img src="./img/share.png" alt="질문하기"></p>
+                <a href="#"><img src="./img/share.png" alt="질문하기"></a>
                 <h1>여름의 지평선,<br> 오키나와</h1>
                 <p>평범한 여행이 질린 당신을 오키나와로 초대합니다.</p>
             </div>
@@ -77,17 +77,16 @@
                             <legend class="skip">선택 양식</legend>
                             <ul>
                                 <li>
+                                    <input type="radio" name="trip_type" id="free_trip" checked>
                                     <label for="free_trip">
-                                        <span>휴식도 여유롭게, 장소도 내가 원하는 곳으로
-                                        <input type="radio" name="trip_type" id="free_trip"></span>
+                                        <span>휴식도 여유롭게, 장소도 내가 원하는 곳으로</span>
                                         <img src="./img/trip_type_01.jpg" alt="자유여행">
                                     </label>
-                                    <p></p>
                                 </li>
                                 <li>
+                                    <input type="radio" name="trip_type" id="group_trip">
                                     <label for="group_trip">
-                                        <span>패키지가 정한 코스를 따라서, 단체관광
-                                        <input type="radio" name="trip_type" id="group_trip"></span>
+                                        <span>패키지가 정한 코스를 따라서, 단체관광</span>
                                         <img src="./img/trip_type_02.jpg" alt="단체여행">
                                     </label>
                                 </li>
@@ -186,7 +185,42 @@
                 </div>
             </div>
         </section>
-        <!-- 7. event -->
+        <!-- 7.attraction -->
+        <section class="attraction">
+            <h2>오키나와의<br> 주요 <em>관광지와 명소</em></h2>
+            <div class="attraction_frm">
+                <div class="top">
+                    <ul class="top_content">
+                        <li>만좌모</li>
+                        <li><img src="./img/attraction_01.jpg" alt=""></li>
+                        <li>만좌모는 1726년 류큐국왕인 쇼우케이가 만명이 앉을 수 있는 들판이라 서 유래된 이름이며, 오키나와 팔경 중 하나인 코끼리 코 모양의 절벽을 말합니다.</li>
+                    </ul>
+                    <ul class="top_content">
+                        <li>나하시 국제거리 상점가</li>
+                        <li><img src="./img/attraction_02.jpg" alt=""></li>
+                        <li>나하시 국제거리 상점가는 나하를 대표하는 관광 명소 중 하나이며, 오키나와 향토 요리와 토산품을 살 수 있는 시장부터 카페나 가게가 즐비해 있습니다.</li>
+                    </ul>
+                    <ul class="top_content">
+                        <li>아메리칸 빌리지</li>
+                        <li><img src="./img/attraction_03.jpg" alt=""></li>
+                        <li>큰 관람차가 눈길을 끄는 미하마 아메리칸 빌리지는 오키나와현 중부 서해안에 있습니다. 아메리카의 분위기가 감도는 이국적인 정취로 가득한 명소입니다.</li>
+                    </ul>
+                </div>
+                <div class="btm">
+                    <ul class="btm_content">
+                        <li>슈리성</li>
+                        <li><img src="./img/attraction_04.jpg" alt=""></li>
+                        <li>지금으로부터 약 140년 전, 류큐 왕국이 슈리성을 중심으로 450년간 중국과 일본, 아시아와의 교류를 통해 그 영향을 받으면서 독자적인 역사와 문화를 발전시킨 곳입니다. 2019년 10월에 슈리성 정전을 포함한 8채의 건물이 불타 버렸으며, 현재 복원을 추진하는 중입니다.</li>
+                    </ul>
+                    <ul class="btm_content">
+                        <li>우미카지 테라스</li>
+                        <li><img src="./img/attraction_05.jpg" alt=""></li>
+                        <li>나하 공항에서 차량으로 약 15분, 해중도로로 연결된 낙도, 세나가 섬에 있는 세나가 섬 우미카지 테라스. 리조트 기분을 만끽할 수 있는 거리에는 맛집과 쇼핑을 즐길 수 있는 40개 이상의 점포가 늘어서 있습니다. 아름다운 석양을 어디서든 바라볼 수 있는 포토스팟으로도 유명합니다.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- 8. event -->
         <section class="event_bg">
             <div class="event">
                 <h2>SPECIAL EVENT</h2>
@@ -195,7 +229,7 @@
                 <a href="#"><span>예약하러 가기</span><img src="./img/flight.png" alt=""></a>
             </div>
         </section>
-        <!-- 8. Precautions -->
+        <!-- 9. Precautions -->
         <section class="precautions_bg">
             <div class="precautions">
                 <h3>오키나와 패키지 이벤트 유의사항</h3>
