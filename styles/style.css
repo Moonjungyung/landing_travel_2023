@@ -28,7 +28,9 @@ h2 {font-family: 'HS 새마을체'; font-size: 5rem; font-size: 3.5rem;}
     z-index: 10;
 }
 #asking .top {display: flex; flex-flow: row nowrap;}
-#asking .top li img {margin-right: 8px;}
+#asking .top li img {
+    margin-right: 8px;
+}
 #asking .top li {font-weight: 700; margin-bottom: 4px;}
 #asking .btm {
     display: flex; flex-flow: row nowrap;}
@@ -53,6 +55,11 @@ main .title_bg .title a {
     padding: 8px 10px;
     background-color: #FFF;
     border-radius: 20px;
+    transition: box-shadow 0.5s;
+    box-shadow: 0;
+}
+main .title_bg .title a:hover {
+    box-shadow: 0 0 5px #fff;
 }
 main .title_bg .title p {
     color: #FFF; font-size: 1.3rem;
@@ -158,6 +165,7 @@ main .trip_bg .trip .btm #trip_frm fieldset li label span {
     background: #BBBBBB; text-align: center; line-height: 59px;
     border-radius: 40px 40px 0 0;
     font-family: 'HS 새마을체'; color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 main .trip_bg .trip .btm #trip_frm fieldset li input {
     appearance: none;
@@ -166,10 +174,13 @@ main .trip_bg .trip .btm #trip_frm fieldset li input {
 main .trip_bg .trip .btm #trip_frm fieldset li input:checked+label span {
     background-color: #1DDDD1;
     font-size: 1.333rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 main .trip_bg .trip .btm #trip_frm fieldset li label #free_trip {}
 main .trip_bg .trip .btm #trip_frm fieldset li label #group_trip {}
-main .trip_bg .trip .btm #trip_frm fieldset li label img {border-radius: 0 0 40px 40px;}
+main .trip_bg .trip .btm #trip_frm fieldset li label>img {
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
 /* 5. local uisine */
 main .local_bg {background: #F6F6F6; border-radius: 0 400px 0 0;}
 main .local_bg .local {
